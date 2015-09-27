@@ -1,0 +1,398 @@
+#actualidad{
+    color:#2C3E50;
+    margin: 20px 0 14px 43px !important;
+    padding: 5px 5px;
+    border-bottom: 2px solid #2C3E50;
+}
+#actualidad h2{
+    margin:0;
+    
+}
+#plantilla{
+    color:#2C3E50;
+    margin: 20px 0 14px 43px !important;
+    padding: 5px 5px;
+    border-bottom: 2px solid #2C3E50;
+    background-color: rgba(255,255,255, 0.9);
+}
+#plantilla h2{
+    margin:0;
+    
+}
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+  
+    
+}
+.container{
+    width:100% !important;
+    padding: 0 !important;
+}
+
+.cuerpo{
+   /* background: url("img/fondo2.jpg"); */
+}
+div#img-index{
+   padding: 0;
+   
+}
+#estadio-fondo{
+    min-width: 100%;
+}
+#footer{
+    //padding: 20px;
+    text-align: center;
+}
+#footer-panel{
+    //margin-bottom: 0 !important;
+    background-color: #2c3e50 !important;
+    color: white;
+    padding:20px;
+    font-weight: bold;
+    position: relative;
+    top:24px;
+}
+
+.glyphiconpro, .glyphicon{
+    margin-right: 6px;
+}
+#inicio{
+    margin: 0 0 -115px 0 !important;
+}
+#img-fondo{
+    position:fixed;
+    z-index: -1;
+}
+#titulo{
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 2;
+    position: relative;
+    top: -107px;
+    padding: 10px 0px 13px 0px !important;
+    
+}
+#titulo h1{
+  font: Helvetica;
+  margin: 0 0 0 0px;
+  font-size: 53px !important;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold !important;
+  letter-spacing: 1.3px;
+}  
+div#titulo h3{
+    font: Helvetica;
+    margin: 0 0 0 0px;
+  //font-size: 28px !important;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold !important;
+  letter-spacing: 1.3px;   
+}
+
+
+.noticias{
+   margin: 0 20px !important;
+}
+.thumbnail{
+    
+    margin: 5px !important;
+    box-shadow:  0px 1px 4px #DFDFDF;
+    -webkit-box-shadow:  0px 1px 4px #DFDFDF;
+}
+.thum-equipo{
+    height: 534px !important;
+    margin: 20px 0 20px 13px !important;
+}
+.thum-equipo2{
+    margin: 20px 13px 20px 0 !important;
+}
+.thum-jugador{
+   // height: 90px !important;
+}
+.thumb-trof{
+    width:400px;
+    height:300px;
+}
+.tit-noticias{
+    margin:10px;
+    font-weight: bold;
+}
+.tabla-result{
+    border:2px solid white;
+    
+    padding:2px !important;
+    background-color:grey;
+    color:white;
+}
+
+.tabla-result tr td{
+    font-weight: bold;
+    padding:2px !important;
+    text-align: center;
+
+}
+#trofeo-tab{
+    margin:50px 20px !important;
+    padding:0 20px;
+}
+.well-mod{
+    background-color: #2C3E50;
+    color: white;
+}
+
+
+/*GENERALES*/
+body{
+    background-color:#F4F4F4;
+    margin:50px 0 0 0;
+}
+
+body>.navbar{
+	-webkit-transition:background-color 300ms ease-in;
+	transition:background-color 300ms ease-in
+}
+carousel-inner{
+    width: 80%;
+    //top:35px;
+}
+@media (min-width:768px){
+	body>.navbar-transparent{
+		background-color:transparent
+	}
+
+	body>.navbar-transparent .navbar-nav>.open>a{
+		background-color:transparent!important
+	}
+
+}
+
+#home{
+	padding-top:0
+}
+
+#home .navbar-brand{
+	padding:13.5px 15px 12.5px
+}
+
+#home .navbar-brand>img{
+	display:inline;
+	margin:0 10px;
+	height:100%
+}
+
+#banner{
+	min-height:300px;
+	border-bottom:none
+}
+
+.page-header h1{
+	font-size:4em
+}
+
+.bs-docs-section{
+	margin-top:8em
+}
+
+.bs-component{
+	position:relative
+}
+
+.bs-component .modal{
+	position:relative;
+	top:auto;
+	right:auto;
+	left:auto;
+	bottom:auto;
+	z-index:1;
+	display:block
+}
+
+.bs-component .modal-dialog{
+	width:90%
+}
+
+.bs-component .popover{
+	position:relative;
+	display:inline-block;
+	width:220px;
+	margin:20px
+}
+
+#source-button{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:100;
+	font-weight:700
+}
+.navbar-fixed-top {
+  /*top: 0;*/
+}
+.nav-tabs{
+	margin-bottom:15px
+}
+
+.progress{
+	margin-bottom:10px
+}
+
+footer{
+	margin:5em 0
+}
+
+footer li{
+	float:left;
+	margin-right:1.5em;
+	margin-bottom:1.5em
+}
+
+footer p{
+	clear:left;
+	margin-bottom:0
+}
+
+.splash{
+	padding:9em 0 2em;
+	background-color:#141d27;
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+	text-align:center
+}
+
+.splash .logo{
+	width:160px
+}
+
+.splash h1{
+	font-size:3em
+}
+
+.splash #social{
+	margin:2em 0
+}
+
+.splash .alert{
+	margin:2em 0
+}
+
+.section-tout{
+	padding:4em 0 3em;
+	border-bottom:1px solid rgba(0,0,0,.05);
+	background-color:#eaf1f1
+}
+
+.section-tout .fa{
+	margin-right:.5em
+}
+
+.section-tout p{
+	margin-bottom:3em
+}
+
+.section-preview{
+	padding:4em 0 4em
+}
+
+.section-preview .preview{
+	margin-bottom:4em;
+	background-color:#eaf1f1
+}
+
+.section-preview .preview .image{
+	position:relative
+}
+
+.section-preview .preview .image:before{
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,.1);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	content:"";
+	pointer-events:none
+}
+
+.section-preview .preview .options{
+	padding:1em 2em 2em;
+	border:1px solid rgba(0,0,0,.05);
+	border-top:none;
+	text-align:center
+}
+
+.section-preview .preview .options p{
+	margin-bottom:2em
+}
+
+.section-preview .dropdown-menu{
+	text-align:left
+}
+
+.section-preview .lead{
+	margin-bottom:2em
+}
+
+@media (max-width:767px){
+	.section-preview .image img{
+		width:100%
+	}
+
+}
+
+.sponsor{
+	text-align:center
+}
+
+.sponsor a:hover{
+	text-decoration:none
+}
+
+@media (max-width:767px){
+	.splash{
+		padding-top:4em
+	}
+
+	.splash .logo{
+		width:100px
+	}
+
+	.splash h1{
+		font-size:2em
+	}
+
+	#banner{
+		margin-bottom:2em;
+		text-align:center
+	}
+
+}
+
+/*GLYPHICONS */
+
+@font-face{
+    font-family:"Glyphicons";
+    src:url("../fonts/glyphicons-regular.eot"),
+        url("../fonts/glyphicons-regular.eot?#iefix") format("eot"),
+        url("../fonts/glyphicons-regular.woff") format("woff"),
+        url("../fonts/glyphicons-regular.ttf") format("truetype"),
+        url("../fonts/glyphicons-regular.svg#glyphiconsregular") format("svg")
+}
+
+.glyphiconpro{
+    position:relative;
+    top:-1px;
+    vertical-align:middle;
+    display:inline-block;
+    font-family:'Glyphicons';
+    font-size:1.4em;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.glyphiconpro-spin{
+    -moz-animation:glyphicon-spin 2s infinite linear;
+    -o-animation:glyphicon-spin 2s infinite linear;
+    -webkit-animation:glyphicon-spin 2s infinite linear;
+    animation:glyphicon-spin 2s infinite linear}@-moz-keyframes glyphicon-spin{0%{-moz-transform:rotate(0deg)}100%{-moz-transform:rotate(359deg)}}@-webkit-keyframes glyphicon-spin{0%{-webkit-transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg)}}@-o-keyframes glyphicon-spin{0%{-o-transform:rotate(0deg)}100%{-o-transform:rotate(359deg)}}@-ms-keyframes glyphicon-spin{0%{-ms-transform:rotate(0deg)}100%{-ms-transform:rotate(359deg)}}@keyframes glyphicon-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}.glyphiconpro-glass:before{content:"\E001"}.glyphiconpro-leaf:before{content:"\E002"}.glyphiconpro-dog:before{content:"\1F415"}.glyphiconpro-user:before{content:"\E004"}.glyphiconpro-girl:before{content:"\1F467"}.glyphiconpro-car:before{content:"\E006"}.glyphiconpro-user_add:before{content:"\E007"}.glyphiconpro-user_remove:before{content:"\E008"}.glyphiconpro-film:before{content:"\E009"}.glyphiconpro-magic:before{content:"\E010"}.glyphiconpro-envelope:before{content:"\2709"}.glyphiconpro-camera:before{content:"\1F4F7"}.glyphiconpro-heart:before{content:"\E013"}.glyphiconpro-beach_umbrella:before{content:"\E014"}.glyphiconpro-train:before{content:"\1F686"}.glyphiconpro-print:before{content:"\E016"}.glyphiconpro-bin:before{content:"\E017"}.glyphiconpro-music:before{content:"\E018"}.glyphiconpro-note:before{content:"\E019"}.glyphiconpro-heart_empty:before{content:"\E020"}.glyphiconpro-home:before{content:"\E021"}.glyphiconpro-snowflake:before{content:"\2744"}.glyphiconpro-fire:before{content:"\1F525"}.glyphiconpro-magnet:before{content:"\E024"}.glyphiconpro-parents:before{content:"\E025"}.glyphiconpro-binoculars:before{content:"\E026"}.glyphiconpro-road:before{content:"\E027"}.glyphiconpro-search:before{content:"\E028"}.glyphiconpro-cars:before{content:"\E029"}.glyphiconpro-notes_2:before{content:"\E030"}.glyphiconpro-pencil:before{content:"\270F"}.glyphiconpro-bus:before{content:"\1F68C"}.glyphiconpro-wifi_alt:before{content:"\E033"}.glyphiconpro-luggage:before{content:"\E034"}.glyphiconpro-old_man:before{content:"\E035"}.glyphiconpro-woman:before{content:"\1F469"}.glyphiconpro-file:before{content:"\E037"}.glyphiconpro-coins:before{content:"\E038"}.glyphiconpro-airplane:before{content:"\2708"}.glyphiconpro-notes:before{content:"\E040"}.glyphiconpro-stats:before{content:"\E041"}.glyphiconpro-charts:before{content:"\E042"}.glyphiconpro-pie_chart:before{content:"\E043"}.glyphiconpro-group:before{content:"\E044"}.glyphiconpro-keys:before{content:"\E045"}.glyphiconpro-calendar:before{content:"\1F4C5"}.glyphiconpro-router:before{content:"\E047"}.glyphiconpro-camera_small:before{content:"\E048"}.glyphiconpro-dislikes:before{content:"\E049"}.glyphiconpro-star:before{content:"\E050"}.glyphiconpro-link:before{content:"\E051"}.glyphiconpro-eye_open:before{content:"\E052"}.glyphiconpro-eye_close:before{content:"\E053"}.glyphiconpro-alarm:before{content:"\E054"}.glyphiconpro-clock:before{content:"\E055"}.glyphiconpro-stopwatch:before{content:"\E056"}.glyphiconpro-projector:before{content:"\E057"}.glyphiconpro-history:before{content:"\E058"}.glyphiconpro-truck:before{content:"\E059"}.glyphiconpro-cargo:before{content:"\E060"}.glyphiconpro-compass:before{content:"\E061"}.glyphiconpro-keynote:before{content:"\E062"}.glyphiconpro-paperclip:before{content:"\1F4CE"}.glyphiconpro-power:before{content:"\E064"}.glyphiconpro-lightbulb:before{content:"\E065"}.glyphiconpro-tag:before{content:"\E066"}.glyphiconpro-tags:before{content:"\E067"}.glyphiconpro-cleaning:before{content:"\E068"}.glyphiconpro-ruller:before{content:"\E069"}.glyphiconpro-gift:before{content:"\E070"}.glyphiconpro-umbrella:before{content:"\2602"}.glyphiconpro-book:before{content:"\E072"}.glyphiconpro-bookmark:before{content:"\1F516"}.glyphiconpro-wifi:before{content:"\E074"}.glyphiconpro-cup:before{content:"\E075"}.glyphiconpro-stroller:before{content:"\E076"}.glyphiconpro-headphones:before{content:"\E077"}.glyphiconpro-headset:before{content:"\E078"}.glyphiconpro-warning_sign:before{content:"\E079"}.glyphiconpro-signal:before{content:"\E080"}.glyphiconpro-retweet:before{content:"\E081"}.glyphiconpro-refresh:before{content:"\E082"}.glyphiconpro-roundabout:before{content:"\E083"}.glyphiconpro-random:before{content:"\E084"}.glyphiconpro-heat:before{content:"\E085"}.glyphiconpro-repeat:before{content:"\E086"}.glyphiconpro-display:before{content:"\E087"}.glyphiconpro-log_book:before{content:"\E088"}.glyphiconpro-address_book:before{content:"\E089"}.glyphiconpro-building:before{content:"\E090"}.glyphiconpro-eyedropper:before{content:"\E091"}.glyphiconpro-adjust:before{content:"\E092"}.glyphiconpro-tint:before{content:"\E093"}.glyphiconpro-crop:before{content:"\E094"}.glyphiconpro-vector_path_square:before{content:"\E095"}.glyphiconpro-vector_path_circle:before{content:"\E096"}.glyphiconpro-vector_path_polygon:before{content:"\E097"}.glyphiconpro-vector_path_line:before{content:"\E098"}.glyphiconpro-vector_path_curve:before{content:"\E099"}.glyphiconpro-vector_path_all:before{content:"\E100"}.glyphiconpro-font:before{content:"\E101"}.glyphiconpro-italic:before{content:"\E102"}.glyphiconpro-bold:before{content:"\E103"}.glyphiconpro-text_underline:before{content:"\E104"}.glyphiconpro-text_strike:before{content:"\E105"}.glyphiconpro-text_height:before{content:"\E106"}.glyphiconpro-text_width:before{content:"\E107"}.glyphiconpro-text_resize:before{content:"\E108"}.glyphiconpro-left_indent:before{content:"\E109"}.glyphiconpro-right_indent:before{content:"\E110"}.glyphiconpro-align_left:before{content:"\E111"}.glyphiconpro-align_center:before{content:"\E112"}.glyphiconpro-align_right:before{content:"\E113"}.glyphiconpro-justify:before{content:"\E114"}.glyphiconpro-list:before{content:"\E115"}.glyphiconpro-text_smaller:before{content:"\E116"}.glyphiconpro-text_bigger:before{content:"\E117"}.glyphiconpro-embed:before{content:"\E118"}.glyphiconpro-embed_close:before{content:"\E119"}.glyphiconpro-table:before{content:"\E120"}.glyphiconpro-message_full:before{content:"\E121"}.glyphiconpro-message_empty:before{content:"\E122"}.glyphiconpro-message_in:before{content:"\E123"}.glyphiconpro-message_out:before{content:"\E124"}.glyphiconpro-message_plus:before{content:"\E125"}.glyphiconpro-message_minus:before{content:"\E126"}.glyphiconpro-message_ban:before{content:"\E127"}.glyphiconpro-message_flag:before{content:"\E128"}.glyphiconpro-message_lock:before{content:"\E129"}.glyphiconpro-message_new:before{content:"\E130"}.glyphiconpro-inbox:before{content:"\E131"}.glyphiconpro-inbox_plus:before{content:"\E132"}.glyphiconpro-inbox_minus:before{content:"\E133"}.glyphiconpro-inbox_lock:before{content:"\E134"}.glyphiconpro-inbox_in:before{content:"\E135"}.glyphiconpro-inbox_out:before{content:"\E136"}.glyphiconpro-cogwheel:before{content:"\E137"}.glyphiconpro-cogwheels:before{content:"\E138"}.glyphiconpro-picture:before{content:"\E139"}.glyphiconpro-adjust_alt:before{content:"\E140"}.glyphiconpro-database_lock:before{content:"\E141"}.glyphiconpro-database_plus:before{content:"\E142"}.glyphiconpro-database_minus:before{content:"\E143"}.glyphiconpro-database_ban:before{content:"\E144"}.glyphiconpro-folder_open:before{content:"\E145"}.glyphiconpro-folder_plus:before{content:"\E146"}.glyphiconpro-folder_minus:before{content:"\E147"}.glyphiconpro-folder_lock:before{content:"\E148"}.glyphiconpro-folder_flag:before{content:"\E149"}.glyphiconpro-folder_new:before{content:"\E150"}.glyphiconpro-edit:before{content:"\E151"}.glyphiconpro-new_window:before{content:"\E152"}.glyphiconpro-check:before{content:"\E153"}.glyphiconpro-unchecked:before{content:"\E154"}.glyphiconpro-more_windows:before{content:"\E155"}.glyphiconpro-show_big_thumbnails:before{content:"\E156"}.glyphiconpro-show_thumbnails:before{content:"\E157"}.glyphiconpro-show_thumbnails_with_lines:before{content:"\E158"}.glyphiconpro-show_lines:before{content:"\E159"}.glyphiconpro-playlist:before{content:"\E160"}.glyphiconpro-imac:before{content:"\E161"}.glyphiconpro-macbook:before{content:"\E162"}.glyphiconpro-ipad:before{content:"\E163"}.glyphiconpro-iphone:before{content:"\E164"}.glyphiconpro-iphone_transfer:before{content:"\E165"}.glyphiconpro-iphone_exchange:before{content:"\E166"}.glyphiconpro-ipod:before{content:"\E167"}.glyphiconpro-ipod_shuffle:before{content:"\E168"}.glyphiconpro-ear_plugs:before{content:"\E169"}.glyphiconpro-record:before{content:"\E170"}.glyphiconpro-step_backward:before{content:"\E171"}.glyphiconpro-fast_backward:before{content:"\E172"}.glyphiconpro-rewind:before{content:"\E173"}.glyphiconpro-play:before{content:"\E174"}.glyphiconpro-pause:before{content:"\E175"}.glyphiconpro-stop:before{content:"\E176"}.glyphiconpro-forward:before{content:"\E177"}.glyphiconpro-fast_forward:before{content:"\E178"}.glyphiconpro-step_forward:before{content:"\E179"}.glyphiconpro-eject:before{content:"\E180"}.glyphiconpro-facetime_video:before{content:"\E181"}.glyphiconpro-download_alt:before{content:"\E182"}.glyphiconpro-mute:before{content:"\E183"}.glyphiconpro-volume_down:before{content:"\E184"}.glyphiconpro-volume_up:before{content:"\E185"}.glyphiconpro-screenshot:before{content:"\E186"}.glyphiconpro-move:before{content:"\E187"}.glyphiconpro-more:before{content:"\E188"}.glyphiconpro-brightness_reduce:before{content:"\E189"}.glyphiconpro-brightness_increase:before{content:"\E190"}.glyphiconpro-circle_plus:before{content:"\E191"}.glyphiconpro-circle_minus:before{content:"\E192"}.glyphiconpro-circle_remove:before{content:"\E193"}.glyphiconpro-circle_ok:before{content:"\E194"}.glyphiconpro-circle_question_mark:before{content:"\E195"}.glyphiconpro-circle_info:before{content:"\E196"}.glyphiconpro-circle_exclamation_mark:before{content:"\E197"}.glyphiconpro-remove:before{content:"\E198"}.glyphiconpro-ok:before{content:"\E199"}.glyphiconpro-ban:before{content:"\E200"}.glyphiconpro-download:before{content:"\E201"}.glyphiconpro-upload:before{content:"\E202"}.glyphiconpro-shopping_cart:before{content:"\E203"}.glyphiconpro-lock:before{content:"\1F512"}.glyphiconpro-unlock:before{content:"\E205"}.glyphiconpro-electricity:before{content:"\E206"}.glyphiconpro-ok_2:before{content:"\E207"}.glyphiconpro-remove_2:before{content:"\E208"}.glyphiconpro-cart_out:before{content:"\E209"}.glyphiconpro-cart_in:before{content:"\E210"}.glyphiconpro-left_arrow:before{content:"\E211"}.glyphiconpro-right_arrow:before{content:"\E212"}.glyphiconpro-down_arrow:before{content:"\E213"}.glyphiconpro-up_arrow:before{content:"\E214"}.glyphiconpro-resize_small:before{content:"\E215"}.glyphiconpro-resize_full:before{content:"\E216"}.glyphiconpro-circle_arrow_left:before{content:"\E217"}.glyphiconpro-circle_arrow_right:before{content:"\E218"}.glyphiconpro-circle_arrow_top:before{content:"\E219"}.glyphiconpro-circle_arrow_down:before{content:"\E220"}.glyphiconpro-play_button:before{content:"\E221"}.glyphiconpro-unshare:before{content:"\E222"}.glyphiconpro-share:before{content:"\E223"}.glyphiconpro-chevron-right:before{content:"\E224"}.glyphiconpro-chevron-left:before{content:"\E225"}.glyphiconpro-bluetooth:before{content:"\E226"}.glyphiconpro-euro:before{content:"\20AC"}.glyphiconpro-usd:before{content:"\E228"}.glyphiconpro-gbp:before{content:"\E229"}.glyphiconpro-retweet_2:before{content:"\E230"}.glyphiconpro-moon:before{content:"\E231"}.glyphiconpro-sun:before{content:"\2609"}.glyphiconpro-cloud:before{content:"\2601"}.glyphiconpro-direction:before{content:"\E234"}.glyphiconpro-brush:before{content:"\E235"}.glyphiconpro-pen:before{content:"\E236"}.glyphiconpro-zoom_in:before{content:"\E237"}.glyphiconpro-zoom_out:before{content:"\E238"}.glyphiconpro-pin:before{content:"\E239"}.glyphiconpro-albums:before{content:"\E240"}.glyphiconpro-rotation_lock:before{content:"\E241"}.glyphiconpro-flash:before{content:"\E242"}.glyphiconpro-google_maps:before{content:"\E243"}.glyphiconpro-anchor:before{content:"\2693"}.glyphiconpro-conversation:before{content:"\E245"}.glyphiconpro-chat:before{content:"\E246"}.glyphiconpro-male:before{content:"\E247"}.glyphiconpro-female:before{content:"\E248"}.glyphiconpro-asterisk:before{content:"\002A"}.glyphiconpro-divide:before{content:"\00F7"}.glyphiconpro-snorkel_diving:before{content:"\E251"}.glyphiconpro-scuba_diving:before{content:"\E252"}.glyphiconpro-oxygen_bottle:before{content:"\E253"}.glyphiconpro-fins:before{content:"\E254"}.glyphiconpro-fishes:before{content:"\E255"}.glyphiconpro-boat:before{content:"\E256"}.glyphiconpro-delete:before{content:"\E257"}.glyphiconpro-sheriffs_star:before{content:"\E258"}.glyphiconpro-qrcode:before{content:"\E259"}.glyphiconpro-barcode:before{content:"\E260"}.glyphiconpro-pool:before{content:"\E261"}.glyphiconpro-buoy:before{content:"\E262"}.glyphiconpro-spade:before{content:"\E263"}.glyphiconpro-bank:before{content:"\1F3E6"}.glyphiconpro-vcard:before{content:"\E265"}.glyphiconpro-electrical_plug:before{content:"\E266"}.glyphiconpro-flag:before{content:"\E267"}.glyphiconpro-credit_card:before{content:"\E268"}.glyphiconpro-keyboard-wireless:before{content:"\E269"}.glyphiconpro-keyboard-wired:before{content:"\E270"}.glyphiconpro-shield:before{content:"\E271"}.glyphiconpro-ring:before{content:"\02DA"}.glyphiconpro-cake:before{content:"\E273"}.glyphiconpro-drink:before{content:"\E274"}.glyphiconpro-beer:before{content:"\E275"}.glyphiconpro-fast_food:before{content:"\E276"}.glyphiconpro-cutlery:before{content:"\E277"}.glyphiconpro-pizza:before{content:"\E278"}.glyphiconpro-birthday_cake:before{content:"\E279"}.glyphiconpro-tablet:before{content:"\E280"}.glyphiconpro-settings:before{content:"\E281"}.glyphiconpro-bullets:before{content:"\E282"}.glyphiconpro-cardio:before{content:"\E283"}.glyphiconpro-t-shirt:before{content:"\E284"}.glyphiconpro-pants:before{content:"\E285"}.glyphiconpro-sweater:before{content:"\E286"}.glyphiconpro-fabric:before{content:"\E287"}.glyphiconpro-leather:before{content:"\E288"}.glyphiconpro-scissors:before{content:"\E289"}.glyphiconpro-bomb:before{content:"\1F4A3"}.glyphiconpro-skull:before{content:"\1F480"}.glyphiconpro-celebration:before{content:"\E292"}.glyphiconpro-tea_kettle:before{content:"\E293"}.glyphiconpro-french_press:before{content:"\E294"}.glyphiconpro-coffe_cup:before{content:"\E295"}.glyphiconpro-pot:before{content:"\E296"}.glyphiconpro-grater:before{content:"\E297"}.glyphiconpro-kettle:before{content:"\E298"}.glyphiconpro-hospital:before{content:"\1F3E5"}.glyphiconpro-hospital_h:before{content:"\E300"}.glyphiconpro-microphone:before{content:"\1F3A4"}.glyphiconpro-webcam:before{content:"\E302"}.glyphiconpro-temple_christianity_church:before{content:"\E303"}.glyphiconpro-temple_islam:before{content:"\E304"}.glyphiconpro-temple_hindu:before{content:"\E305"}.glyphiconpro-temple_buddhist:before{content:"\E306"}.glyphiconpro-bicycle:before{content:"\1F6B2"}.glyphiconpro-life_preserver:before{content:"\E308"}.glyphiconpro-share_alt:before{content:"\E309"}.glyphiconpro-comments:before{content:"\E310"}.glyphiconpro-flower:before{content:"\2698"}.glyphiconpro-baseball:before{content:"\26BE"}.glyphiconpro-rugby:before{content:"\E313"}.glyphiconpro-ax:before{content:"\E314"}.glyphiconpro-table_tennis:before{content:"\E315"}.glyphiconpro-bowling:before{content:"\1F3B3"}.glyphiconpro-tree_conifer:before{content:"\E317"}.glyphiconpro-tree_deciduous:before{content:"\E318"}.glyphiconpro-more_items:before{content:"\E319"}.glyphiconpro-sort:before{content:"\E320"}.glyphiconpro-filter:before{content:"\E321"}.glyphiconpro-gamepad:before{content:"\E322"}.glyphiconpro-playing_dices:before{content:"\E323"}.glyphiconpro-calculator:before{content:"\E324"}.glyphiconpro-tie:before{content:"\E325"}.glyphiconpro-wallet:before{content:"\E326"}.glyphiconpro-piano:before{content:"\E327"}.glyphiconpro-sampler:before{content:"\E328"}.glyphiconpro-podium:before{content:"\E329"}.glyphiconpro-soccer_ball:before{content:"\E330"}.glyphiconpro-blog:before{content:"\E331"}.glyphiconpro-dashboard:before{content:"\E332"}.glyphiconpro-certificate:before{content:"\E333"}.glyphiconpro-bell:before{content:"\1F514"}.glyphiconpro-candle:before{content:"\E335"}.glyphiconpro-pushpin:before{content:"\1F4CC"}.glyphiconpro-iphone_shake:before{content:"\E337"}.glyphiconpro-pin_flag:before{content:"\E338"}.glyphiconpro-turtle:before{content:"\1F422"}.glyphiconpro-rabbit:before{content:"\1F407"}.glyphiconpro-globe:before{content:"\E341"}.glyphiconpro-briefcase:before{content:"\1F4BC"}.glyphiconpro-hdd:before{content:"\E343"}.glyphiconpro-thumbs_up:before{content:"\E344"}.glyphiconpro-thumbs_down:before{content:"\E345"}.glyphiconpro-hand_right:before{content:"\E346"}.glyphiconpro-hand_left:before{content:"\E347"}.glyphiconpro-hand_up:before{content:"\E348"}.glyphiconpro-hand_down:before{content:"\E349"}.glyphiconpro-fullscreen:before{content:"\E350"}.glyphiconpro-shopping_bag:before{content:"\E351"}.glyphiconpro-book_open:before{content:"\E352"}.glyphiconpro-nameplate:before{content:"\E353"}.glyphiconpro-nameplate_alt:before{content:"\E354"}.glyphiconpro-vases:before{content:"\E355"}.glyphiconpro-bullhorn:before{content:"\E356"}.glyphiconpro-dumbbell:before{content:"\E357"}.glyphiconpro-suitcase:before{content:"\E358"}.glyphiconpro-file_import:before{content:"\E359"}.glyphiconpro-file_export:before{content:"\E360"}.glyphiconpro-bug:before{content:"\1F41B"}.glyphiconpro-crown:before{content:"\1F451"}.glyphiconpro-smoking:before{content:"\E363"}.glyphiconpro-cloud-upload:before{content:"\E364"}.glyphiconpro-cloud-download:before{content:"\E365"}.glyphiconpro-restart:before{content:"\E366"}.glyphiconpro-security_camera:before{content:"\E367"}.glyphiconpro-expand:before{content:"\E368"}.glyphiconpro-collapse:before{content:"\E369"}.glyphiconpro-collapse_top:before{content:"\E370"}.glyphiconpro-globe_af:before{content:"\E371"}.glyphiconpro-global:before{content:"\E372"}.glyphiconpro-spray:before{content:"\E373"}.glyphiconpro-nails:before{content:"\E374"}.glyphiconpro-claw_hammer:before{content:"\E375"}.glyphiconpro-classic_hammer:before{content:"\E376"}.glyphiconpro-hand_saw:before{content:"\E377"}.glyphiconpro-riflescope:before{content:"\E378"}.glyphiconpro-electrical_socket_eu:before{content:"\E379"}.glyphiconpro-electrical_socket_us:before{content:"\E380"}.glyphiconpro-message_forward:before{content:"\E381"}.glyphiconpro-coat_hanger:before{content:"\E382"}.glyphiconpro-dress:before{content:"\1F457"}.glyphiconpro-bathrobe:before{content:"\E384"}.glyphiconpro-shirt:before{content:"\E385"}.glyphiconpro-underwear:before{content:"\E386"}.glyphiconpro-log_in:before{content:"\E387"}.glyphiconpro-log_out:before{content:"\E388"}.glyphiconpro-exit:before{content:"\E389"}.glyphiconpro-new_window_alt:before{content:"\E390"}.glyphiconpro-video_sd:before{content:"\E391"}.glyphiconpro-video_hd:before{content:"\E392"}.glyphiconpro-subtitles:before{content:"\E393"}.glyphiconpro-sound_stereo:before{content:"\E394"}.glyphiconpro-sound_dolby:before{content:"\E395"}.glyphiconpro-sound_5_1:before{content:"\E396"}.glyphiconpro-sound_6_1:before{content:"\E397"}.glyphiconpro-sound_7_1:before{content:"\E398"}.glyphiconpro-copyright_mark:before{content:"\E399"}.glyphiconpro-registration_mark:before{content:"\E400"}.glyphiconpro-radar:before{content:"\E401"}.glyphiconpro-skateboard:before{content:"\E402"}.glyphiconpro-golf_course:before{content:"\E403"}.glyphiconpro-sorting:before{content:"\E404"}.glyphiconpro-sort-by-alphabet:before{content:"\E405"}.glyphiconpro-sort-by-alphabet-alt:before{content:"\E406"}.glyphiconpro-sort-by-order:before{content:"\E407"}.glyphiconpro-sort-by-order-alt:before{content:"\E408"}.glyphiconpro-sort-by-attributes:before{content:"\E409"}.glyphiconpro-sort-by-attributes-alt:before{content:"\E410"}.glyphiconpro-compressed:before{content:"\E411"}.glyphiconpro-package:before{content:"\1F4E6"}.glyphiconpro-cloud_plus:before{content:"\E413"}.glyphiconpro-cloud_minus:before{content:"\E414"}.glyphiconpro-disk_save:before{content:"\E415"}.glyphiconpro-disk_open:before{content:"\E416"}.glyphiconpro-disk_saved:before{content:"\E417"}.glyphiconpro-disk_remove:before{content:"\E418"}.glyphiconpro-disk_import:before{content:"\E419"}.glyphiconpro-disk_export:before{content:"\E420"}.glyphiconpro-tower:before{content:"\E421"}.glyphiconpro-send:before{content:"\E422"}.glyphiconpro-git_branch:before{content:"\E423"}.glyphiconpro-git_create:before{content:"\E424"}.glyphiconpro-git_private:before{content:"\E425"}.glyphiconpro-git_delete:before{content:"\E426"}.glyphiconpro-git_merge:before{content:"\E427"}.glyphiconpro-git_pull_request:before{content:"\E428"}.glyphiconpro-git_compare:before{content:"\E429"}.glyphiconpro-git_commit:before{content:"\E430"}.glyphiconpro-construction_cone:before{content:"\E431"}.glyphiconpro-shoe_steps:before{content:"\E432"}.glyphiconpro-plus:before{content:"\002B"}.glyphiconpro-minus:before{content:"\2212"}.glyphiconpro-redo:before{content:"\E435"}.glyphiconpro-undo:before{content:"\E436"}.glyphiconpro-golf:before{content:"\E437"}.glyphiconpro-hockey:before{content:"\E438"}.glyphiconpro-pipe:before{content:"\E439"}.glyphiconpro-wrench:before{content:"\1F527"}.glyphiconpro-folder_closed:before{content:"\E441"}.glyphiconpro-phone_alt:before{content:"\E442"}.glyphiconpro-earphone:before{content:"\E443"}.glyphiconpro-floppy_disk:before{content:"\E444"}.glyphiconpro-floppy_saved:before{content:"\E445"}.glyphiconpro-floppy_remove:before{content:"\E446"}.glyphiconpro-floppy_save:before{content:"\E447"}.glyphiconpro-floppy_open:before{content:"\E448"}.glyphiconpro-translate:before{content:"\E449"}.glyphiconpro-fax:before{content:"\E450"}.glyphiconpro-factory:before{content:"\1F3ED"}.glyphiconpro-shop_window:before{content:"\E452"}.glyphiconpro-shop:before{content:"\E453"}.glyphiconpro-kiosk:before{content:"\E454"}.glyphiconpro-kiosk_wheels:before{content:"\E455"}.glyphiconpro-kiosk_light:before{content:"\E456"}.glyphiconpro-kiosk_food:before{content:"\E457"}.glyphiconpro-transfer:before{content:"\E458"}.glyphiconpro-money:before{content:"\E459"}.glyphiconpro-header:before{content:"\E460"}.glyphiconpro-blacksmith:before{content:"\E461"}.glyphiconpro-saw_blade:before{content:"\E462"}.glyphiconpro-basketball:before{content:"\E463"}.glyphiconpro-server:before{content:"\E464"}.glyphiconpro-server_plus:before{content:"\E465"}.glyphiconpro-server_minus:before{content:"\E466"}.glyphiconpro-server_ban:before{content:"\E467"}.glyphiconpro-server_flag:before{content:"\E468"}.glyphiconpro-server_lock:before{content:"\E469"}.glyphiconpro-server_new:before{content:"\E470"}
